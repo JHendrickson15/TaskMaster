@@ -11,6 +11,7 @@ import UIKit
 class TaskDetailTableViewController: UITableViewController {
     var task: Task?{
         didSet{
+            loadViewIfNeeded()
             updateViews()
         }
     }

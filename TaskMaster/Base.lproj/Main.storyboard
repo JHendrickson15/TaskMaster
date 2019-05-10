@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fl9-RY-KQa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fl9-RY-KQa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,20 +25,20 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="233" translatesAutoresizingMaskIntoConstraints="NO" id="elQ-5u-2nX">
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="elQ-5u-2nX">
                                             <rect key="frame" x="8" y="8" width="359" height="27.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxb-vx-cfh">
-                                                    <rect key="frame" x="0.0" y="0.0" width="98.5" height="27.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="331.5" height="27.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4X-X4-mpD">
                                                     <rect key="frame" x="331.5" y="0.0" width="27.5" height="27.5"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="CfX-f4-xBQ"/>
-                                                        <constraint firstAttribute="width" constant="30" id="WHR-00-eAx"/>
+                                                        <constraint firstAttribute="height" constant="60" id="CfX-f4-xBQ"/>
+                                                        <constraint firstAttribute="width" constant="60" id="WHR-00-eAx"/>
                                                         <constraint firstAttribute="width" secondItem="Y4X-X4-mpD" secondAttribute="height" multiplier="1:1" id="gva-r8-dbR"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
@@ -237,7 +237,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="EmptyCheck" width="700" height="700"/>
+        <image name="EmptyCheck" width="350" height="350"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3j8-89-g2W"/>
